@@ -78,7 +78,7 @@ app.get('/ajaxmessage', function (req, res) {
 app.post('/postajax', function (req, res) {
 
     var Name = req.body.Name;
-    var Country = req.body.Country;ub
+    var Country = req.body.Country;
     var Message = req.body.Message;
 
 
