@@ -1,6 +1,7 @@
 const bodyParser = require('body-parser');
 const express = require('express');
 const fs = require("fs");
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 
@@ -96,6 +97,4 @@ app.get('*', function(req, res) {
 
 
 
-app.listen(8081, function() {
-    console.log("App listening on port 8081!");
-});
+app.listen(PORT);

@@ -1,5 +1,16 @@
 {
   "dependencies": {
     "express": "^4.17.3"
-  }
+  },
+  "name": "project1_guestbook",
+  "description": "The app should have all that was required apart from styling the table which I did not know how to do.",
+  "version": "1.0.0",
+  "main": "guestbook.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start": "node guestbook.js"
+  },
+  "author": "Tomi Hämäläinen",
+  "license": "ISC"
 }
