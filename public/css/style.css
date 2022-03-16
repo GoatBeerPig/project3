@@ -1,0 +1,44 @@
+.form-inline {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.form-control {
+  margin-right: 10px;
+  margin-left: 2px;
+}
+
+#textbox {
+  margin-top: 40px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.footer {
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+img {
+  height: 200px;
+  border-radius: 50%;
+}
+
+.jumbotron {
+  margin-bottom: 5px;
+}
