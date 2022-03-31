@@ -1,0 +1,27 @@
+<%- include("../partials/header") %>
+<body>
+    <%- include("../partials/navigation") %>
+
+    <table>
+        <tr>
+          <th>Title</th>
+          <th>Genre</th>
+          <th>Platform</th>
+          <th>Publisher</th>
+          <th>Developer</th>
+          <th>Release Date</th>
+          <th>Image</th>
+        </tr>
+        <tr>
+            <td><%=title %></td>
+          <td><%=genre %></td>
+          <td><%=platform %></td>
+          <td><%=publisher %></td>
+          <td><%=developer %></td>
+          <td><%=release_date %></td>
+          <td><img src="<%=thumbnail %>"</td>
+        </tr>
+      </table>
+
+    <%- include("../partials/footer") %>
+</body>

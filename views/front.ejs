@@ -1,0 +1,29 @@
+<%- include("../partials/header") %>
+
+<%- include("../partials/navigation") %>
+
+<body>
+    <h3> Select a platform and a category to make a list of games</h3>
+    
+    <form class="form-inline" method="post" id="tableForm" action="gamelist">
+        <label for="platform">Choose a platform:</label>
+        <select class="form-select" name="platform">
+            <option name="browser" value="browser">Browser</option>
+            <option name="windows" value="pc">Windows</option>
+            <option name="both" value="all">Both</option>
+        </select>
+        <label for="category">Choose a category:</label>
+        <select class="form-select" name="category">
+            <option name="shooter" value="shooter">Shooter</option>
+            <option name="racing" value="racing">Racing</option>
+            <option name="sports" value="sports">Sports</option>
+            <option name="fighting" value="fighting">Fighting</option>
+            <option name="open" value="open-world">Open world</option>
+        </select>
+        <button type="submit" class="btn btn-dark">Submit</button>
+      </form>
+
+  <%- include("../partials/footer") %>
+</body>
+
+
