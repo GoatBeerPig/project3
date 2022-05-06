@@ -1,1 +1,1 @@
-The app should have everything that was required.
+Everything that was required should be working
